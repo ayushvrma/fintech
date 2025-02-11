@@ -1,0 +1,5 @@
+---
+description: Description of Project
+globs: 
+---
+i want to create a high level LLM agent in langraph that uses my openai api key, has access to internet and all the tools it needs,

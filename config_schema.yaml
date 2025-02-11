@@ -1,0 +1,34 @@
+investment_profile:
+  total_amount: 1000000  # Total investment amount in INR
+  risk_profile: "moderate"  # Options: conservative, moderate, aggressive
+  
+time_horizons:
+  short_term:  # 0-1 year
+    percentage: 30
+    liquidity_date: "2024-12-31"
+  medium_term:  # 1-3 years
+    percentage: 40
+    liquidity_date: "2026-12-31"
+  long_term:  # 3+ years
+    percentage: 30
+    liquidity_date: "2027-12-31"
+
+investment_preferences:
+  allowed_instruments:
+    - stocks
+    - options
+    - futures
+    - etfs
+  sector_preferences:
+    - technology
+    - banking
+    - pharma
+  excluded_sectors:
+    - tobacco
+    - gambling
+
+trading_parameters:
+  max_position_size: 10  # Maximum % of portfolio in single position
+  stop_loss_percentage: 5
+  target_profit_percentage: 15
+  max_leverage: 2  # Maximum allowed leverage 
