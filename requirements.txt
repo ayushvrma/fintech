@@ -1,0 +1,27 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.2
+langraph>=0.0.25
+pydantic>=2.5.0
+
+# API and Web
+fastapi>=0.103.1
+uvicorn>=0.23.2
+python-dotenv>=1.0.0
+
+# Data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+pandas-ta>=0.3.14b0
+
+# Finance APIs
+yfinance>=0.2.31
+alpha_vantage>=2.3.1
+python-binance>=1.0.17
+ccxt>=4.0.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.17.0 
