@@ -80,3 +80,4 @@ wheels/
 *.db
 *.sqlite3
 chromadb/
+.cursor/
